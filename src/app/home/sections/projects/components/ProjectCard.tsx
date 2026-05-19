@@ -8,7 +8,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       href={project.actions.find((action) => action.label === "demo")?.href}
       target="_blank"
       rel="noopener noreferrer"
-      className="p-4 flex flex-col gap-4 border border-gray-700"
+      className="p-4 flex flex-col hover:scale-100 gap-4 border border-gray-700"
     >
       <div className=" h-60 relative">
         <AppImage alt="ScriptTag projects" src={project.image} />

@@ -10,7 +10,7 @@ export default function Header() {
       <SectionWrapper className="flex items-center justify-between">
         <Badge />
 
-        <div className="text-primary-foreground">
+        <div className="hidden sm:block text-primary-foreground">
           <Navbar />
         </div>
         {/* 

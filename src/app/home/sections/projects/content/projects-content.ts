@@ -47,6 +47,32 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: "Fralon Peanuts",
+    image: "/images/fralon-peanuts_img.png",
+    stack: "frontend",
+    description:
+      "Still in progress web app for a peanut butter store which will enable users to browse products, place orders and make payments online. Will also feature a dashboard site for the admin",
+    tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
+    actions: [
+      {
+        label: "figma",
+        icon: FigmaIcon,
+        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
+      },
+      {
+        label: "github",
+        icon: GithubIcon,
+        href: "https://github.com/scripttagg/fralon-peanuts",
+      },
+      {
+        label: "demo",
+        icon: WebIcon,
+        href: "https://fralon-peanuts.vercel.app",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Kavijoy Safari Resort",
     image: "/images/kavijoy_img.png",
     stack: "frontend",
@@ -72,7 +98,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Star Auto Cars",
     image: "/images/star-auto-cars_img.png",
     stack: "frontend",
@@ -98,7 +124,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Yoga Studio",
     image: "/images/yoga-flow_img.png",
     stack: "frontend",
@@ -124,7 +150,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Airstream Ad Page",
     image: "/images/airstream-lead-gen_img.png",
     stack: "frontend",
@@ -149,8 +175,8 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: 6,
+  /*  {
+    id: 7,
     title: "Zycure Pharmacy",
     image: "/images/zycure-pharmacy_img.png",
     stack: "frontend",
@@ -174,7 +200,7 @@ export const projects: Project[] = [
         href: "https://zycure-pharmacy.vercel.app/",
       },
     ],
-  },
+  }, */
   /* {
     id: 4,
     title: "Fralon Peanuts",
