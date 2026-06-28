@@ -99,6 +99,32 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Nova Ink",
+    image: "/images/nova-ink_img.png",
+    stack: "frontend",
+    description:
+      "Modern website for a tattoo business to showcase their work and services which offers clients with a feature to book available session through the site",
+    tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
+    actions: [
+      {
+        label: "figma",
+        icon: FigmaIcon,
+        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
+      },
+      {
+        label: "github",
+        icon: GithubIcon,
+        href: "https://github.com/alphy1027/fralon-peanuts-app-backend",
+      },
+      {
+        label: "demo",
+        icon: WebIcon,
+        href: "https://script-tattoo.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "Star Auto Cars",
     image: "/images/star-auto-cars_img.png",
     stack: "frontend",
@@ -124,7 +150,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Yoga Studio",
     image: "/images/yoga-flow_img.png",
     stack: "frontend",
@@ -150,7 +176,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Airstream Ad Page",
     image: "/images/airstream-lead-gen_img.png",
     stack: "frontend",
