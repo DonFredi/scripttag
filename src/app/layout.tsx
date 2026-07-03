@@ -24,7 +24,7 @@ const jost = Jost({
 export const metadata: Metadata = generateSEO({
   title: "Web Development Services & Custom Websites in Kenya",
   description:
-    "ScriptTag builds custom, scalable websites for businesses across Kenya. We design fast, reliable, and SEO-optimized websites tailored to help SMEs grow online.",
+    "ScriptTagg builds custom, scalable websites for businesses across Kenya. We design fast, reliable, and SEO-optimized websites tailored to help SMEs grow online.",
   keywords: [
     "web development Kenya",
     "website design Kenya",
