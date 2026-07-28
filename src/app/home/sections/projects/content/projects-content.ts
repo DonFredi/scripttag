@@ -47,6 +47,32 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: "Car Upholstery Website",
+    image: "/images/upholstery_img.jpg",
+    stack: "frontend",
+    description:
+      "A modern, responsive website designed for a car upholstery business to showcase custom interior services, premium materials, and completed projects. The site features a clean, user-friendly interface with service pages, an interactive gallery, customer testimonials, and a contact form for booking consultations.",
+    tags: ["Next JS", "React JS", "Tailwind CSS", "Typescript"],
+    actions: [
+      /* {
+        label: "figma",
+        icon: FigmaIcon,
+        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
+      }, 
+      {
+        label: "github",
+        icon: GithubIcon,
+        href: "https://github.com/DonFredi/YogaStudio",
+      },*/
+      {
+        label: "demo",
+        icon: WebIcon,
+        href: "https://upholstery-template.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Nova Ink",
     image: "/images/nova-ink_img.png",
     stack: "frontend",
@@ -72,7 +98,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Silvara",
     image: "/images/silvara_img.png",
     stack: "frontend",
@@ -98,7 +124,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Fralon Peanuts",
     image: "/images/fralon-peanuts_img.png",
     stack: "frontend",
@@ -124,7 +150,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Kavijoy Safari Resort",
     image: "/images/kavijoy_img.png",
     stack: "frontend",
@@ -177,7 +203,7 @@ export const projects: Project[] = [
     ],
   }, */
   {
-    id: 6,
+    id: 7,
     title: "Yoga Studio",
     image: "/images/yoga-flow_img.png",
     stack: "frontend",
@@ -203,7 +229,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Airstream Ad Page",
     image: "/images/airstream-lead-gen_img.png",
     stack: "frontend",
