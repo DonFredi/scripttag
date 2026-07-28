@@ -48,7 +48,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "Car Upholstery Website",
-    image: "/images/upholstery_img.jpg",
+    image: "/images/upholstery_img.png",
     stack: "frontend",
     description:
       "A modern, responsive website designed for a car upholstery business to showcase custom interior services, premium materials, and completed projects. The site features a clean, user-friendly interface with service pages, an interactive gallery, customer testimonials, and a contact form for booking consultations.",
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     image: "/images/nova-ink_img.png",
     stack: "frontend",
     description:
-      "Modern website for a tattoo business to showcase their work and services which offers clients with a feature to book available session through the site",
+      "Modern website for a tattoo business to showcase their work and services which offers clients with a feature to book available session through the site.",
     tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
     actions: [
       {
@@ -103,7 +103,7 @@ export const projects: Project[] = [
     image: "/images/silvara_img.png",
     stack: "frontend",
     description:
-      "Modern website for a jewelry business to showcase their products which clients are able to browse details and prices",
+      "Modern website for a jewelry business to showcase their products which clients are able to browse details and prices.",
     tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
     actions: [
       {
@@ -129,7 +129,7 @@ export const projects: Project[] = [
     image: "/images/fralon-peanuts_img.png",
     stack: "frontend",
     description:
-      "Still in progress web app for a peanut butter store which will enable users to browse products, place orders and make payments online. Will also feature a dashboard site for the admin",
+      "Still in progress web app for a peanut butter store which will enable users to browse products, place orders and make payments online. Will also feature a dashboard site for the admin.",
     tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
     actions: [
       {
@@ -155,7 +155,7 @@ export const projects: Project[] = [
     image: "/images/kavijoy_img.png",
     stack: "frontend",
     description:
-      "Modern website built for Kavijoy safari resort which enables potential customers looking for gateaway resort to browse services, facilities and activities",
+      "Modern website built for Kavijoy safari resort which enables potential customers looking for gateaway resort to browse services, facilities and activities.",
     tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
     actions: [
       {
@@ -176,32 +176,6 @@ export const projects: Project[] = [
     ],
   },
 
-  /* {
-    id: 5,
-    title: "Star Auto Cars",
-    image: "/images/star-auto-cars_img.png",
-    stack: "frontend",
-    description:
-      "A basic website for car repair and spare parts shop specializing in mercedes-benz to showcase their services to potential clients",
-    tags: ["Next JS", "React JS", "Tailwind CSS", "Typescript"],
-    actions: [
-      {
-        label: "figma",
-        icon: FigmaIcon,
-        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
-      },
-      {
-        label: "github",
-        icon: GithubIcon,
-        href: "https://github.com/alphy1027/air-stream",
-      },
-      {
-        label: "demo",
-        icon: WebIcon,
-        href: "https://star-auto-cars.netlify.app/",
-      },
-    ],
-  }, */
   {
     id: 7,
     title: "Yoga Studio",
@@ -234,7 +208,7 @@ export const projects: Project[] = [
     image: "/images/airstream-lead-gen_img.png",
     stack: "frontend",
     description:
-      "This is an advertisement landing page for the airstream project, specifically focused on conversion of leads",
+      "This is an advertisement landing page for the airstream project, specifically focused on conversion of leads.",
     tags: ["React", "Tailwind CSS", "Typescript", "Axios", "Tanstack Query", "Framer Motion"],
     actions: [
       {
@@ -254,32 +228,7 @@ export const projects: Project[] = [
       },
     ],
   },
-  /*  {
-    id: 7,
-    title: "Zycure Pharmacy",
-    image: "/images/zycure-pharmacy_img.png",
-    stack: "frontend",
-    description:
-      "This is a modern, responsive web application designed to simplify access to healthcare products and services online.",
-    tags: ["React", "NextJs", "Tailwind CSS", "Typescript", "Axios", "Tanstack Query", "Framer Motion"],
-    actions: [
-      {
-        label: "figma",
-        icon: FigmaIcon,
-        href: "https://www.figma.com/design/kJYDGdfkF29EkeNqclm6sF/Fralon-Design?node-id=0-1&t=IZ5zKkdzV6P1QN66-1",
-      },
-      {
-        label: "github",
-        icon: GithubIcon,
-        href: "https://github.com/DonFredi/zycure-pharmacy",
-      },
-      {
-        label: "demo",
-        icon: WebIcon,
-        href: "https://zycure-pharmacy.vercel.app/",
-      },
-    ],
-  }, */
+
   /* {
     id: 4,
     title: "Fralon Peanuts",
