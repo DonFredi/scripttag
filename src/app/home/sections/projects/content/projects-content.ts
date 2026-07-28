@@ -51,7 +51,7 @@ export const projects: Project[] = [
     image: "/images/upholstery_img.png",
     stack: "frontend",
     description:
-      "A modern, responsive website designed for a car upholstery business to showcase custom interior services, premium materials, and completed projects. The site features a clean, user-friendly interface with service pages, an interactive gallery, customer testimonials, and a contact form for booking consultations.",
+      "A modern, responsive website designed for a car upholstery business to showcase custom interior services, premium materials, and completed projects. The site features a user-friendly interface with service pages, an interactive gallery, and a contact form for booking consultations.",
     tags: ["Next JS", "React JS", "Tailwind CSS", "Typescript"],
     actions: [
       /* {
