@@ -35,16 +35,16 @@ export const siteConfig: SiteConfig = {
   siteUrl: process.env.SITE_URL || "http://localhost:3000",
   contact: {
     phone: {
-      label: "+254 797 162 262",
-      link: "tel:+254797162262",
+      label: "+254 700 347 329",
+      link: "tel:+254700347329",
     },
     email: {
       label: "scripttagg@gmail.com",
       link: "mailto:scripttagg@gmail.com",
     },
     whatsapp: {
-      label: "+254 797 162 262",
-      link: "https://wa.me/254797162262",
+      label: "+254 700 347 329",
+      link: "https://wa.me/254700347329",
     },
   },
   address: {
