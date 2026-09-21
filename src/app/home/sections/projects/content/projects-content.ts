@@ -21,6 +21,32 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Cred Lead Consultancy",
+    image: "/images/credlead_img.png",
+    stack: "frontend",
+    description:
+      "A modern website for a food and beverage consultancy firm which allows users to browse service areas and make immediate enquiries",
+    tags: ["Next JS", "React JS", "Tailwind CSS", "Typescript", "Shadcn-UI"],
+    actions: [
+      {
+        label: "figma",
+        icon: FigmaIcon,
+        href: "https://www.figma.com/design/4LNv7iDhzfJibrMmHAUVQ7/Alphy1027?node-id=0-1&t=mNOuN6HjQuNMUAc7-1",
+      },
+      {
+        label: "github",
+        icon: GithubIcon,
+        href: "https://github.com/alphy1027/air-stream",
+      },
+      {
+        label: "demo",
+        icon: WebIcon,
+        href: "https://www.credleadconsultancy.com/",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Airstream Cooling Systems",
     image: "/images/airstream_img.png",
     stack: "frontend",
@@ -45,8 +71,61 @@ export const projects: Project[] = [
       },
     ],
   },
+  
   {
-    id: 2,
+    id: 3,
+    title: "Fralon Peanuts",
+    image: "/images/fralon-peanuts_img.png",
+    stack: "frontend",
+    description:
+      "Web app for a peanut butter store which will enable users to browse products, place orders and make payments online. Will also feature a dashboard site for the admin.",
+    tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
+    actions: [
+      {
+        label: "figma",
+        icon: FigmaIcon,
+        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
+      },
+      {
+        label: "github",
+        icon: GithubIcon,
+        href: "https://github.com/scripttagg/fralon-peanuts",
+      },
+      {
+        label: "demo",
+        icon: WebIcon,
+        href: "https://fralon-peanuts.vercel.app",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Kavijoy Safari Resort",
+    image: "/images/kavijoy_img.png",
+    stack: "frontend",
+    description:
+      "Modern website built for Kavijoy safari resort which enables potential customers looking for gateaway resort to browse services, facilities and activities.",
+    tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
+    actions: [
+      {
+        label: "figma",
+        icon: FigmaIcon,
+        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
+      },
+      {
+        label: "github",
+        icon: GithubIcon,
+        href: "https://github.com/alphy1027/fralon-peanuts-app-backend",
+      },
+      {
+        label: "demo",
+        icon: WebIcon,
+        href: "https://kavijoy-safari-resort.netlify.app",
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "Car Upholstery Website",
     image: "/images/upholstery_img.png",
     stack: "frontend",
@@ -72,7 +151,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 3,
+    id: 6,
     title: "Nova Ink",
     image: "/images/nova-ink_img.png",
     stack: "frontend",
@@ -98,7 +177,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     title: "Silvara",
     image: "/images/silvara_img.png",
     stack: "frontend",
@@ -123,60 +202,8 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "Fralon Peanuts",
-    image: "/images/fralon-peanuts_img.png",
-    stack: "frontend",
-    description:
-      "Still in progress web app for a peanut butter store which will enable users to browse products, place orders and make payments online. Will also feature a dashboard site for the admin.",
-    tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
-    actions: [
-      {
-        label: "figma",
-        icon: FigmaIcon,
-        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
-      },
-      {
-        label: "github",
-        icon: GithubIcon,
-        href: "https://github.com/scripttagg/fralon-peanuts",
-      },
-      {
-        label: "demo",
-        icon: WebIcon,
-        href: "https://fralon-peanuts.vercel.app",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Kavijoy Safari Resort",
-    image: "/images/kavijoy_img.png",
-    stack: "frontend",
-    description:
-      "Modern website built for Kavijoy safari resort which enables potential customers looking for gateaway resort to browse services, facilities and activities.",
-    tags: ["Node JS", "Express JS", "MongoDB", "Mongoose", "Javascript", "JWT Auth"],
-    actions: [
-      {
-        label: "figma",
-        icon: FigmaIcon,
-        href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
-      },
-      {
-        label: "github",
-        icon: GithubIcon,
-        href: "https://github.com/alphy1027/fralon-peanuts-app-backend",
-      },
-      {
-        label: "demo",
-        icon: WebIcon,
-        href: "https://kavijoy-safari-resort.netlify.app",
-      },
-    ],
-  },
 
-  {
+  /* {
     id: 7,
     title: "Yoga Studio",
     image: "/images/yoga-flow_img.png",
@@ -185,7 +212,7 @@ export const projects: Project[] = [
       "The Yoga Flow website is a modern, user-friendly platform designed to offer a seamless experience for yoga enthusiasts.",
     tags: ["Next JS", "React JS", "Tailwind CSS", "Typescript"],
     actions: [
-      /* {
+     {
         label: "figma",
         icon: FigmaIcon,
         href: "https://www.figma.com/design/1qoXQpgzS69ugJAEX3tIZ9/alphy.dev-portfolio?t=WQGbaKkWsJ9LujIy-1",
@@ -194,14 +221,14 @@ export const projects: Project[] = [
         label: "github",
         icon: GithubIcon,
         href: "https://github.com/DonFredi/YogaStudio",
-      },*/
+      },
       {
         label: "demo",
         icon: WebIcon,
         href: "https://yogalandingpage.netlify.app/",
       },
     ],
-  },
+  }, */
   {
     id: 8,
     title: "Airstream Ad Page",
